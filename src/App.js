@@ -5,6 +5,8 @@ function App() {
     <div>
       <header>
         Apaguei a Maioria dos arquivos desnecessarios
+        <p>Ok
+        </p>
       </header>
     </div>
   );
