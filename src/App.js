@@ -1,13 +1,14 @@
 import './App.css';
+import React from 'react';
+import { brawlLogo } from './assets/brawl-stars-logo.png';
 
 function App() {
   return (
     <div>
-      <header>
-        Apaguei a Maioria dos arquivos desnecessarios
-        <p>Ok
-        </p>
-      </header>
+      <div class="nav-bar">
+          <h3><a class="link-enconder" href="./user-front/user.html">Usuario</a></h3>
+          <h3><a class="link-enconder" href="./brawler-front/brawlers.html">Brawlers</a></h3>
+      </div>
     </div>
   );
 }
