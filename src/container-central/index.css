@@ -1,4 +1,11 @@
 .box-principal{
     height: 100vh;
+    color: white;
+    font-size: 30px;
+
     background: url('../assets/wallpaper.png');
+}
+
+#informacao{
+    display: none;
 }
