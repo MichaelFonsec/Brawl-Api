@@ -17,12 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Editei o Projeto
-
-            teste
-
-            ok
-          </a>
+        </a>
         </p>
       </header>
     </div>
