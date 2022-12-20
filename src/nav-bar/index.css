@@ -6,3 +6,9 @@
     font-family: Volkhov;
     user-select: none;
 }
+
+.link-enconder{
+    font-family: 'Inter';
+    text-decoration: none;
+    color: black;
+}
