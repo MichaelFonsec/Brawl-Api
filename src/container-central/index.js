@@ -16,6 +16,4 @@ function Conteudo() {
   );
 }
 
-//Vou apagar alguns arquivos desnecessarios
-
 export default Conteudo;
