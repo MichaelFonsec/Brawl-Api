@@ -2,9 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Esqueva Aqui
+    <div>
+      <header>
+        Apaguei a Maioria dos arquivos desnecessarios
       </header>
     </div>
   );
