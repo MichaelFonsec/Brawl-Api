@@ -5,7 +5,7 @@ function Rodape() {
   return (
     <div>
       { /* Rodapé */ }
-        <h3>Rodape</h3>
+        <a></a>
     </div>
   );
 }
