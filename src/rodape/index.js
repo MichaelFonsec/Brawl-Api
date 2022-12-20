@@ -3,9 +3,9 @@ import React from 'react';
 
 function Rodape() {
   return (
-    <div>
+    <div class="rodape">
       { /* Rodapé */ }
-        <a></a>
+        <a>Rodape</a>
     </div>
   );
 }
