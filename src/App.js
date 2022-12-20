@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
@@ -19,6 +18,8 @@ function App() {
             rel="noopener noreferrer"
           >
             Editei o Projeto
+
+            ok
           </a>
         </p>
       </header>
