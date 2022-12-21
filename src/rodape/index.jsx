@@ -1,12 +1,12 @@
-import './index.css';
+import { Roda } from './style';
 import React from 'react';
 
 function Rodape() {
   return (
-    <div class="rodape">
+    <Roda>
       { /* Rodapé */ }
         <a>Rodape</a>
-    </div>
+    </Roda>
   );
 }
 

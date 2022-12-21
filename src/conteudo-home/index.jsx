@@ -1,9 +1,9 @@
-import './index.css';
+import { Boxprincipal } from './style';
 import React from 'react';
 
 function Conteudo() {
   return (
-    <div class="box-principal">
+    <Boxprincipal>
       <a id="informacao">
           <h7>
               Esta ferramenta Tem o intuito de ser utilizada para ver estatisticas de brawlers,
@@ -12,7 +12,7 @@ function Conteudo() {
       </a>
       <a id="textInicio">Vamos Construir utilizando Brawl Stars Api</a>
       <button id="btn_Inicio" onClick={mudarCor}>Sou Novo por Aqui</button>
-    </div>
+    </Boxprincipal>
   );
 }
 
