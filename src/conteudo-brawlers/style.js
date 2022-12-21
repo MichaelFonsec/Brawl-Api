@@ -1,10 +1,8 @@
 import styled from "styled-components";
-import imgbackground from '../assets/wallpaper.png'
+import imgbackground from '../assets/original-image-2361-scaled.jpeg'
 
 export const BoxBrawl = styled.div`
     height: 100vh;
-    color: white;
-    background-color: blue;
 
     display: flex;
     flex-direction: column;
@@ -14,14 +12,9 @@ export const BoxBrawl = styled.div`
 
     background: url(${imgbackground});
 
-    button{
-        background: transparent;
-        border-color: white;
-        color: white;
-        max-width: 100px;
-    }
-
-    #informacao{
-        display: none;
+    #box{
+        padding: 20px;
+        text-align: center;
+        background-color: white;
     }
 `;
