@@ -11,9 +11,14 @@ function Conteudo() {
           </h7>
       </a>
       <a id="textInicio">Vamos Construir utilizando Brawl Stars Api</a>
-      <button id="btn_Inicio" onclick="exibirInformacoes()">Sou Novo por Aqui</button>
+      <button id="btn_Inicio" onclick={mudarCor}>Sou Novo por Aqui</button>
     </div>
   );
 }
+
+function mudarCor() {
+  var visualizar = document.getElementById('informacao');
+  visualizar.style.display = 'block';
+};
 
 export default Conteudo;
