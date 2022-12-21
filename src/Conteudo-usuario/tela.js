@@ -5,12 +5,12 @@ import React from "react-router-dom";
 
 function Tela () {
 
- export const Usuario = () => {
+
 
         const [email, setEmail] = useState("");
         const [password, setPasswod] = useState("");
 
-    }
+    
 
     return (
 <div className="cointainer">
