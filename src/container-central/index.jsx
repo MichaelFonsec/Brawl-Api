@@ -11,14 +11,27 @@ function Conteudo() {
           </h7>
       </a>
       <a id="textInicio">Vamos Construir utilizando Brawl Stars Api</a>
-      <button id="btn_Inicio" onclick={mudarCor}>Sou Novo por Aqui</button>
+      <button id="btn_Inicio" onClick={mudarCor}>Sou Novo por Aqui</button>
     </div>
   );
 }
 
+let exibir = true;
+
 function mudarCor() {
-  var visualizar = document.getElementById('informacao');
-  visualizar.style.display = 'block';
+  const informacao = document.getElementById('informacao');
+  const textinicio = document.getElementById('textInicio');
+
+  if (exibir == true){
+    informacao.style.display = 'block';
+    textinicio.style.display = 'none';
+    exibir = false;
+  }
+  else{
+    informacao.style.display = 'none';
+    textinicio.style.display = 'block';
+    exibir = true;
+  }
 };
 
 export default Conteudo;
