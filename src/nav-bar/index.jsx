@@ -1,6 +1,5 @@
 import { Nav } from './style';
 import React from 'react';
-import Conteudo from '../conteudo-home';
 import brawlLogo from '../assets/brawl-stars-logo.png';
 
 function Navbar() {
@@ -11,7 +10,6 @@ function Navbar() {
         <img src={brawlLogo} width="50rem"/>
         <h3><a class="link-enconder" href="">Brawlers</a></h3>
     </Nav>
-    <Conteudo />
     </>
   );
 }
