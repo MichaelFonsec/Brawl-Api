@@ -1,5 +1,5 @@
 import { useState } from "react"
-import React from "react-router-dom";
+import {Link}from "react-router-dom";
 
 
 
@@ -30,6 +30,13 @@ onChange={(e) => setEmail(e.target.value)}/>
 <span className="focus-input" data-placeholder="Email"></span>
 </div>
 
+<div className="wrap-input">
+<input className={password !== "" ? "has-val input " : "input"} type="password" value={password}
+onChange={(e) => setPasswod(e.target.value)}/>
+
+<span className="focus-input" data-placeholder="Senha"></span>
+</div>
+
 
 <div className="container-usuario-form-btn">
     <button className="usuario-form-btn">Cadastrar</button>
@@ -37,7 +44,8 @@ onChange={(e) => setEmail(e.target.value)}/>
 
 <div className="text-center">
     <span className="txt1">Não possui Cadastrado</span>
-<a className="txt2" href="#">Criar Conta</a>
+
+<Link className="txt2" href="#">Criar Conta</Link>
 
 </div>
 </div>
