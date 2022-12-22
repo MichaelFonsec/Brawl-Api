@@ -1,11 +1,12 @@
 import { Roda } from './style';
+import {Like} from 'react-router-dom'
 import React from 'react';
 
 function Rodape() {
   return (
     <Roda>
       { /* Rodapé */ }
-        <a>Rodape</a>
+        <Like>Rodape</Like>
     </Roda>
   );
 }
