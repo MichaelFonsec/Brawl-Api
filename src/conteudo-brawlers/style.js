@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import imgbackground from '../assets/original-image-2361-scaled.jpeg'
+import imgbackground from '../assets/wallpapers/original-image-2361-scaled.jpeg';
 
 export const BoxBrawl = styled.div`
     height: 100vh;

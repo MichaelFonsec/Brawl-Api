@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import imgbackground from '../assets/wallpaper.png'
+import imgbackground from '../assets/wallpapers/wallpaper.png'
 
 export const Boxprincipal = styled.div`
     height: 100vh;
