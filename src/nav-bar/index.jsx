@@ -1,14 +1,15 @@
 import { Nav } from './style';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import brawlLogo from '../assets/wallpapers/brawl-stars-logo.png';
 
 function Navbar() {
   return (
     <>
     <Nav>
-        <h3><a class="link-enconder" href="">Usuario</a></h3>
+        <h3><Link className="link-enconder" href="">Usuario</Link></h3>
         <img src={brawlLogo} width="50rem"/>
-        <h3><a class="link-enconder" href="">Brawlers</a></h3>
+        <h3><Link class="link-enconder" href="">Brawlers</Link></h3>
     </Nav>
     </>
   );

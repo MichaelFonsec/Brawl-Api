@@ -1,17 +1,17 @@
-import { Boxprincipal } from './style';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Boxprincipal } from './style'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Conteudo() {
   return (
     <Boxprincipal>
-      <link id="informacao">
+      <Link id="informacao">
           <h7>
               Esta ferramenta Tem o intuito de ser utilizada para ver estatisticas de brawlers,
               Podendo Ate mesmo ser utilizada para visualizar as estatisticas de todos os usuarios e amigos.
           </h7>
-      </link>
-      <link id="textInicio">Vamos Construir utilizando Brawl Stars Api</link>
+      </Link>
+      <Link id="textInicio">Vamos Construir utilizando Brawl Stars Api</Link>
       <button id="btn_Inicio" onClick={mudarCor}>Sou Novo por Aqui</button>
     </Boxprincipal>
   );
