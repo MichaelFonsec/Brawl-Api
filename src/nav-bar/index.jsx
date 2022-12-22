@@ -1,6 +1,5 @@
 import { Nav } from './style';
 import React from 'react';
-import { Link } from 'react-router-dom';
 import brawlLogo from '../assets/wallpapers/brawl-stars-logo.png';
 
 function Navbar() {
