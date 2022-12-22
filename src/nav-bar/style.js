@@ -8,9 +8,8 @@ export const Nav = styled.div`
     font-family: Volkhov;
     user-select: none;
 
-    .link-enconder{
+    h3{
         font-family: 'Inter';
-        text-decoration: none;
         color: black;
     }
 `;
