@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from '../nav-bar/index';
+
 import Conteudo from '../conteudo-home';
-import Rodape from '../rodape/index';
+import Rodape from '../rodape/index.jsx';
 
 function Home() {
     return (
         <>
-            <NavBar />
+         
             <Conteudo />
             <Rodape />
         </>

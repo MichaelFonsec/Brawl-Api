@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from '../nav-bar/index';
+import NavBar from '../nav-bar/index.jsx';
 import ConteudoBrawlers from '../conteudo-brawlers';
-import Rodape from '../rodape/index';
+import Rodape from '../rodape/index.jsx';
 
 function Brawlers() {
     return (
