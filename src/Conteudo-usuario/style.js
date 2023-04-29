@@ -12,10 +12,32 @@ export const BoxBrawl = styled.div`
     background: url(${imgbackground});
 
     #box{
+        border: 2px solid black;
+        border-radius: 10px;
         padding: 20px;
-        text-align: center;
-        background-color: white;
+        backdrop-filter: blur(5px);
+
         display: flex;
         flex-direction: column;
+        
+        color: white;
+        text-align: center;
+
+        button{
+            padding: 6px 0;
+            background-color: white;
+            border: none;
+        }
+
+        button:hover{
+            background-color: hsl(0, 0%, 95%);
+        }
+    }
+
+    input[type="text"]{
+        margin: 10px 0;
+        outline: none;
+        box-sizing: border-box;
+        padding: 4px;
     }
 `;

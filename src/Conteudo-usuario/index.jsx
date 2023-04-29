@@ -6,7 +6,7 @@ function ConteudoUsuario() {
     <BoxBrawl>
       <div id="box">
         Pesquise seu id de Usuario
-        <input type="text" />
+        <input type="text" placeholder='#XXXXXXXX' />
         <button>Procurar</button>
       </div>
     </BoxBrawl>

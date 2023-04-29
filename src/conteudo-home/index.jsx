@@ -1,38 +1,29 @@
-import { Boxprincipal } from './style'
-import React from 'react'
+import { Boxprincipal } from './style';
+import { useState } from 'react';
 
+const Conteudo = () =>{
+  const [exibir, setExibir] = useState(false);
+  
+  const mudarCor = ()=>{
+    setExibir(exibir === false);
+  };
 
-function Conteudo() {
   return (
     <Boxprincipal>
-      <a id="informacao">
+      <div style={{maxWidth: "500px"}}>
+        {
+          exibir === false ? 
           <h7>
-              Esta ferramenta Tem o intuito de ser utilizada para ver estatisticas de brawlers,
-              Podendo Ate mesmo ser utilizada para visualizar as estatisticas de todos os usuarios e amigos.
+            Esta ferramenta Tem o intuito de ser utilizada para ver estatisticas de brawlers,
+            Podendo Ate mesmo ser utilizada para visualizar as estatisticas de todos os usuarios e amigos.
           </h7>
-      </a>
-      <a id="textInicio">Vamos Construir utilizando Brawl Stars Api</a>
-      <button id="btn_Inicio" onClick={mudarCor}>Sou Novo por Aqui</button>
+          :
+          <p>Vamos Construir utilizando Brawl Stars Api</p>
+        }
+      </div>
+      <button onClick={mudarCor}>Sou Novo por Aqui</button>
     </Boxprincipal>
   );
 }
-
-let exibir = true;
-
-function mudarCor() {
-  const informacao = document.getElementById('informacao');
-  const textinicio = document.getElementById('textInicio');
-
-  if (exibir == true){
-    informacao.style.display = 'block';
-    textinicio.style.display = 'none';
-    exibir = false;
-  }
-  else{
-    informacao.style.display = 'none';
-    textinicio.style.display = 'block';
-    exibir = true;
-  }
-};
 
 export default Conteudo;

@@ -10,6 +10,7 @@ export const Boxprincipal = styled.div`
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    text-align: center;
 
     background: url(${imgbackground});
 

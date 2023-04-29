@@ -5,13 +5,11 @@ import brawlLogo from '../assets/wallpapers/brawl-stars-logo.png';
 
 function Navbar() {
   return (
-    <>
     <Nav>
-        <Link to='/usuario'><h3>Usuario</h3></Link>
-        <Link to='/'><img src={brawlLogo} width="50rem"/></Link>
-        <Link to='/brawlers'><h3>Brawlers</h3></Link>
+        <Link to='/usuario' style={{textDecoration:"none"}}><h3>Usuario</h3></Link>
+        <Link to='/'><img src={brawlLogo} width="50rem" alt='supercell' /></Link>
+        <Link to='/brawlers' style={{textDecoration:"none"}}><h3>Brawlers</h3></Link>
     </Nav>
-    </>
   );
 }
 
